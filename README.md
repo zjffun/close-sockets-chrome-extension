@@ -1,10 +1,12 @@
 # close-sockets-chrome-extension
 
+English | [简体中文](./README.zh-CN.md)
+
 Close idle sockets &amp; Flush socket pools
 
 ## Install
 
-**Note**: This plugin needs to execute script in [chrome://net-internals/#sockets](chrome://net-internals/#sockets). **Please make sure `Extensions on chrome:// URLs` enabled as step 5 to 6** to make this extension work.
+**Note**: This extension needs to execute script in [chrome://net-internals/#sockets](chrome://net-internals/#sockets). **Please make sure `Extensions on chrome:// URLs` enabled as step 5 to 6** to make this extension work.
 
 1. `git clone https://github.com/zjffun/close-sockets-chrome-extension.git`;
 2. Open [chrome://extensions/](chrome://extensions/);
