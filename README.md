@@ -17,7 +17,7 @@ Close idle sockets &amp; Flush socket pools
 
 ## Usage
 
-Click the extension icon <img src="./images/icon128.png" style="height: 1.5em"> , then this extension can help you:
+Click the extension icon <img src="./images/icon128.png" height="30"> , then this extension can help you:
 
 1. Open [chrome://net-internals/#sockets](chrome://net-internals/#sockets);
 2. Click `Close idle sockets` button;

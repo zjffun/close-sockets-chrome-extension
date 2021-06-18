@@ -17,7 +17,7 @@ Close idle sockets &amp; Flush socket pools
 
 ## 使用
 
-点击此扩展程序的图标 <img src="./images/icon128.png" style="height: 1.5em"> ，然后此扩展程序可以帮助您
+点击此扩展程序的图标 <img src="./images/icon128.png" height="30"> ，然后此扩展程序可以帮助您
 
 1. 打开链接 [chrome://net-internals/#sockets](chrome://net-internals/#sockets)；
 2. 点击 `Close idle sockets` 按钮；
