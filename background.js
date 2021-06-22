@@ -33,15 +33,24 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     changeInfo.status == "complete" &&
     tab.active
   ) {
-    chrome.scripting.executeScript(
-      {
+    chrome.scripting
+      .executeScript({
         target: { tabId },
         function: clickButton,
-      },
-      function () {
+      })
+      .then(function () {
+        chrome.action.getPopup({}).then(function (popup) {
+          console.log("check popup", { popup });
+          if (popup !== "") {
+            chrome.action.setPopup({ popup: "" });
+          }
+        });
         chrome.tabs.remove(createdTab.id);
         chrome.tabs.update(currentTab.id, { selected: true });
-      }
-    );
+      })
+      .catch(function (error) {
+        console.error(error);
+        chrome.action.setPopup({ popup: "permission-denied.html" });
+      });
   }
 });
