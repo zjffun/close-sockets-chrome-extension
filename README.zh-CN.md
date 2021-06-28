@@ -2,7 +2,7 @@
 
 [English](./README.md) | 简体中文
 
-Close idle sockets &amp; Flush socket pools
+仅通过一次点击关闭全部 socket.
 
 ## 安装
 

@@ -1,6 +1,6 @@
 {
   "name": "Close Sockets",
-  "description": "Close idle sockets & Flush socket pools",
+  "description": "Close all sockets with only a single click.",
   "version": "0.0.0.1",
   "manifest_version": 3,
   "action": {
@@ -11,6 +11,6 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["activeTab", "tabs", "scripting"],
+  "permissions": ["tabs", "scripting"],
   "host_permissions": ["chrome://net-internals/#sockets"]
 }

@@ -2,7 +2,7 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-Close idle sockets &amp; Flush socket pools
+Close all sockets with only a single click.
 
 ## Install
 
