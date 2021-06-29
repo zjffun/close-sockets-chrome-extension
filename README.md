@@ -6,14 +6,12 @@ Close all sockets with only a single click.
 
 ## Install
 
-**Note**: This extension needs to execute script in `chrome://net-internals/#sockets`. **Please make sure `Extensions on chrome:// URLs` enabled as step 5 to 6** to make this extension work.
+**Note**: This extension needs to execute script in `chrome://net-internals/#sockets`. **Please make sure `Extensions on chrome:// URLs` enabled as step 3 to 4** to make this extension work.
 
-1. `git clone https://github.com/zjffun/close-sockets-chrome-extension.git`;
-2. Open `chrome://extensions/`;
-3. Click `Load unpacked`;
-4. Select `your-git-clone-path/close-sockets-chrome-extension`;
-5. Open `chrome://flags/#extensions-on-chrome-urls`;
-6. Select `Enabled`.
+1. Open [Close Sockets - Chrome Web Store](https://chrome.google.com/webstore/detail/close-sockets/jmdakhnnimjejdbaahglbcpnlidckjff);
+2. Click `Add to Chrome`;
+3. Open `chrome://flags/#extensions-on-chrome-urls`;
+4. Select `Enabled`.
 
 ## Usage
 

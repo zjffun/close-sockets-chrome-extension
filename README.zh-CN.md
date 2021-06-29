@@ -6,14 +6,12 @@
 
 ## 安装
 
-**注意**: 此扩展程序需要在 `chrome://net-internals/#sockets` 中运行脚本。 **请确保按照步骤 5、6 启用了 `Extensions on chrome:// URLs`** 以确保此扩展程序正常使用。
+**注意**: 此扩展程序需要在 `chrome://net-internals/#sockets` 中运行脚本。 **请确保按照步骤 3、4 启用了 `Extensions on chrome:// URLs`** 以确保此扩展程序正常使用。
 
-1. `git clone https://github.com/zjffun/close-sockets-chrome-extension.git`；
-2. 打开链接 `chrome://extensions/`；
-3. 点击 `Load unpacked`；
-4. 选择 `your-git-clone-path/close-sockets-chrome-extension`；
-5. 打开链接 `chrome://flags/#extensions-on-chrome-urls`；
-6. 选择 `Enabled`。
+1. 打开链接 [Close Sockets - Chrome Web Store](https://chrome.google.com/webstore/detail/close-sockets/jmdakhnnimjejdbaahglbcpnlidckjff)；
+2. 点击 `Add to Chrome`；
+3. 打开链接 `chrome://flags/#extensions-on-chrome-urls`；
+4. 选择 `Enabled`。
 
 ## 使用
 
