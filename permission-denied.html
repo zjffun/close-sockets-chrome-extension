@@ -18,28 +18,53 @@
         overflow: hidden;
         opacity: 0;
       }
+
+      button {
+        font-size: inherit;
+      }
     </style>
   </head>
 
   <body>
     <div class="container">
-      <p>
-        Permission denied: Running extensions on chrome:// URLs is disabled.
-      </p>
-      <p>
-        Please <b>open chrome://flags/#extensions-on-chrome-urls</b>
-        <button id="js-copy-btn">copy this link</button>
-        and then <b>select Enabled</b> to enable running extensions on chrome://
-        URLs.
-      </p>
-      <p>
-        Or you can
-        <button id="js-open-sockets-page-btn">
-          open chrome://net-internals/#sockets
-        </button>
-        then manually click `Close idle sockets` button and `Flush socket pools`
-        button.
-      </p>
+      <w-tabs active-key="english">
+        <w-tab-pane tab="English" key="english">
+          <p>
+            Permission denied: Running extensions on chrome:// URLs is disabled.
+          </p>
+          <p>
+            Please <b>open chrome://flags/#extensions-on-chrome-urls</b>
+            <button class="js-copy-btn">copy this link</button>
+            and then <b>select Enabled</b> to enable running extensions on
+            chrome:// URLs.
+          </p>
+          <p>
+            Or you can
+            <button class="js-open-sockets-page-btn">
+              open chrome://net-internals/#sockets
+            </button>
+            then manually click `Close idle sockets` button and `Flush socket
+            pools` button.
+          </p>
+        </w-tab-pane>
+        <w-tab-pane tab="简体中文" key="chinese">
+          <p>权限不足：在 chrome:// URLs 上运行扩展被禁用。</p>
+          <p>
+            请 <b>打开 chrome://flags/#extensions-on-chrome-urls</b>
+            <button class="js-copy-btn">复制此链接</button>
+            然后 <b>选择 Enabled</b> 以启用在 chrome:// URLs 上运行的扩展程序。
+          </p>
+          <p>
+            或者，您可以
+            <button class="js-open-sockets-page-btn">
+              打开 chrome://net-internals/#sockets
+            </button>
+            然后手动单击 `Close idle sockets`（关闭空闲套接字）按钮和 `Flush
+            socket pools`（刷新套接字池）按钮。
+          </p>
+        </w-tab-pane>
+      </w-tabs>
+
       <input
         id="js-copy-data"
         type="text"
