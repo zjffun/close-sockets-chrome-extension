@@ -18,6 +18,6 @@
 点击此扩展程序的图标 <img src="./images/icon128.png" height="30"> ，然后此扩展程序可以帮助您
 
 1. 打开链接 `chrome://net-internals/#sockets`；
-2. 点击 `Close idle sockets` 按钮；
-3. 点击 `Flush socket pools` 按钮；
+2. 点击 `Close idle sockets` （关闭空闲套接字）按钮；
+3. 点击 `Flush socket pools` （刷新套接字池）按钮；
 4. 关闭第一步打开的标签页。
