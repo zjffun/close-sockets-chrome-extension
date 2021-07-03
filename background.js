@@ -9,26 +9,35 @@ async function getCurrentTab() {
   return tab;
 }
 
+async function openSocketsPage() {
+  const tab = await getCurrentTab();
+  currentTab = tab;
+
+  chrome.tabs.create(
+    { url: "chrome://net-internals/#sockets" },
+    function (tab) {
+      console.log("open chrome://net-internals/#sockets", { tab });
+      createdTab = tab;
+    }
+  );
+}
+
 let createdTab;
 let currentTab;
 
-chrome.action.onClicked.addListener(function () {
-  getCurrentTab().then((tab) => {
-    console.log("action click", { tab });
-    currentTab = tab;
-    chrome.tabs.create(
-      { url: "chrome://net-internals/#sockets" },
-      function (tab) {
-        console.log("open chrome://net-internals/#sockets", { tab });
-        createdTab = tab;
-      }
-    );
-  });
+chrome.action.onClicked.addListener(openSocketsPage);
+
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+  console.log("onMessage", { request });
+
+  if (request.msg == "openSocketsPage") openSocketsPage();
 });
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
-  console.log("tab updated", { tabId, changeInfo, tab });
+  console.log("tab updated", { tabId, changeInfo, tab, createdTab });
+
   if (
+    createdTab &&
     tabId === createdTab.id &&
     changeInfo.status == "complete" &&
     tab.active
