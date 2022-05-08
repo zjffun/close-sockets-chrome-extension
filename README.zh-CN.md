@@ -4,6 +4,8 @@
 
 仅通过一次点击关闭全部 socket。
 
+[![](https://bb-embed.herokuapp.com/embed?v=BV1m54y1f7JB)](https://player.bilibili.com/player.html?aid=853877448&bvid=BV1m54y1f7JB&cid=715265361&page=1)
+
 ## 安装
 
 **注意**: 此扩展程序需要在 `chrome://net-internals/#sockets` 中运行脚本。 **请确保按照步骤 3、4 启用了 `Extensions on chrome:// URLs`** 以确保此扩展程序正常使用。

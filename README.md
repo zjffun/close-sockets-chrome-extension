@@ -4,6 +4,8 @@ English | [简体中文](./README.zh-CN.md)
 
 Close all sockets with only a single click.
 
+[![video](https://yt-embed.herokuapp.com/embed?v=PLb772l-94w)](https://www.youtube.com/embed/PLb772l-94w)
+
 ## Install
 
 **Note**: This extension needs to execute script in `chrome://net-internals/#sockets`. **Please make sure `Extensions on chrome:// URLs` enabled as step 3 to 4** to make this extension work.
