@@ -1,0 +1,44 @@
+[
+  {
+    "rev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "path": "README.zh-CN.md",
+    "range": [
+      1,
+      7
+    ],
+    "srcRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "srcPath": "README.md",
+    "srcRange": [
+      1,
+      7
+    ]
+  },
+  {
+    "rev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "path": "README.zh-CN.md",
+    "range": [
+      9,
+      16
+    ],
+    "srcRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "srcPath": "README.md",
+    "srcRange": [
+      9,
+      16
+    ]
+  },
+  {
+    "rev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "path": "README.zh-CN.md",
+    "range": [
+      18,
+      25
+    ],
+    "srcRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "srcPath": "README.md",
+    "srcRange": [
+      18,
+      25
+    ]
+  }
+]
