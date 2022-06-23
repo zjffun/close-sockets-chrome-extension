@@ -40,5 +40,19 @@
       18,
       25
     ]
+  },
+  {
+    "rev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "path": "permission-denied.html",
+    "range": [
+      50,
+      65
+    ],
+    "srcRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "srcPath": "permission-denied.html",
+    "srcRange": [
+      31,
+      49
+    ]
   }
 ]
