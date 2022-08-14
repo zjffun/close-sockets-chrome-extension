@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hj3kjtjvu1",
+    "fromRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "fromPath": "README.md",
+    "fromRange": [
+      1,
+      7
+    ],
+    "toRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "toPath": "README.zh-CN.md",
+    "toRange": [
+      1,
+      7
+    ]
+  },
+  {
+    "id": "y8lt1gchug",
+    "fromRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "fromPath": "README.md",
+    "fromRange": [
+      9,
+      16
+    ],
+    "toRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "toPath": "README.zh-CN.md",
+    "toRange": [
+      9,
+      16
+    ]
+  },
+  {
+    "id": "0el625npau",
+    "fromRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "fromPath": "README.md",
+    "fromRange": [
+      18,
+      25
+    ],
+    "toRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "toPath": "README.zh-CN.md",
+    "toRange": [
+      18,
+      25
+    ]
+  },
+  {
+    "id": "l6cim64iig",
+    "fromRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "fromPath": "permission-denied.html",
+    "fromRange": [
+      31,
+      49
+    ],
+    "toRev": "7d09aa123ab40311b9f311238a9381aa01832c59",
+    "toPath": "permission-denied.html",
+    "toRange": [
+      50,
+      65
+    ]
+  }
+]
