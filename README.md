@@ -4,7 +4,7 @@ English | [简体中文](./README.zh-CN.md)
 
 Close all sockets with only a single click.
 
-[![video](https://yt-embed.live/embed?v=PLb772l-94w)](https://www.youtube.com/embed/PLb772l-94w)
+[![video](./images/video.webp)](https://www.youtube.com/embed/PLb772l-94w)
 
 ## Install
 
