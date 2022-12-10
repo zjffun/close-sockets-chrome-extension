@@ -4,7 +4,7 @@
 
 仅通过一次点击关闭全部 socket。
 
-[![](https://bb-embed.herokuapp.com/embed?v=BV1m54y1f7JB)](https://player.bilibili.com/player.html?aid=853877448&bvid=BV1m54y1f7JB&cid=715265361&page=1)
+[![](https://bb-embed.zjffun.com/embed?v=BV1m54y1f7JB)](https://player.bilibili.com/player.html?aid=853877448&bvid=BV1m54y1f7JB&cid=715265361&page=1)
 
 ## 安装
 
